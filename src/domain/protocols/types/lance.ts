@@ -8,13 +8,13 @@ import { ResultadoJogada } from "./resultado-jogada";
 export type Lance = {
   indice: number;
   valor: number;
-  incrementoPorLance: (jogadasAnteriores: ResultadoJogada[]) => number;
+  valorNovoLance: (jogadasAnteriores: ResultadoJogada[]) => number;
   alocacao: {
     numero?: number;
     tipo?: Tipo;
     cor?: Cor;
     tamanho?: Tamanho;
     duzia?: Duzia;
-    Coluna?: Coluna;
+    coluna?: Coluna;
   };
 };

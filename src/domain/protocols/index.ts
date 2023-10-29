@@ -1,8 +1,8 @@
 export * from "./types/configuracao-backteste";
-export * from "./types/configuracao-jogada";
 export * from "./types/resultado-jogada";
-export * from "./types/numero";
+export * from "./interfaces/numero";
 export * from "./types/lance";
+export * from "./types/resultados-backteste";
 
 export * from "./enums/numero/coluna";
 export * from "./enums/numero/cor";

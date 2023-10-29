@@ -1,5 +1,8 @@
+import { Lance } from "./lance";
+
 export type ResultadoJogada = {
-  indiceLance: number;
+  lance: Lance;
+  valorLance: number;
   valorLucro: number;
   resultadoPositivo: boolean;
 };
