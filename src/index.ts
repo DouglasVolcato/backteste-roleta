@@ -4,7 +4,7 @@ import { ConfiguracaoBackteste, Cor, Tipo } from "./domain/protocols";
 const configuracoesBackteste: ConfiguracaoBackteste = {
   tamanhoLoop: 100,
   bancaInicial: 150,
-  alvo: 200,
+  alvo: 300,
   stop: 0,
   lances: [
     {
