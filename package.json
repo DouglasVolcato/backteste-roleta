@@ -1,0 +1,16 @@
+{
+  "name": "backteste-roleta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compilate": "tsc",
+    "start": "node compilation/index.js",
+    "dev": "rm -rf compilation && npm run compilate && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
